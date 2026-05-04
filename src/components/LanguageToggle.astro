@@ -1,0 +1,27 @@
+---
+interface Props {
+  currentLang: 'el' | 'en';
+}
+
+const { currentLang } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+// Function to generate the opposite language URL
+const getOppositeLangUrl = () => {
+  if (currentLang === 'el') {
+    return `/en${currentPath === '/' ? '' : currentPath}`;
+  } else {
+    return currentPath.replace(/^\/en/, '') || '/';
+  }
+};
+
+const oppositeLangUrl = getOppositeLangUrl();
+---
+
+<a 
+  href={oppositeLangUrl} 
+  class="flex items-center justify-center bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 transition-colors px-3 py-1.5 rounded-full text-sm font-semibold tracking-wide border border-slate-200"
+  aria-label={currentLang === 'el' ? 'Switch to English' : 'Αλλαγή στα Ελληνικά'}
+>
+  {currentLang === 'el' ? 'EN' : 'ΕΛ'}
+</a>

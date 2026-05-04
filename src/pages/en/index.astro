@@ -1,0 +1,91 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('wiki-en');
+allArticles.sort((a, b) => a.id.localeCompare(b.id));
+
+const getIconForCategory = (category: string, id: string) => {
+  if (id.includes('forologiki-katoikia')) return '🏠';
+  if (id.includes('forologikes-diloseis')) return '📊';
+  if (id.includes('airbnb')) return '🔑';
+  if (id.includes('klironomies')) return '⚖️';
+  if (id.includes('kinitira')) return '📈';
+  if (id.includes('psifiakes')) return '💻';
+  if (id.includes('amka')) return '🏥';
+  if (id.includes('syntaxi')) return '👴';
+  if (id.includes('agora-akinitou')) return '🏢';
+  if (id.includes('golden-visa')) return '🛂';
+  return '📄';
+};
+
+const getGreekSubtitle = (id: string) => {
+  if (id.includes('forologiki-katoikia')) return 'Φορολογική Κατοικία';
+  if (id.includes('forologikes-diloseis')) return 'Φορολογικές Δηλώσεις';
+  if (id.includes('airbnb')) return 'Ακίνητα & Airbnb';
+  if (id.includes('klironomies')) return 'Κληρονομιές & Δωρεές';
+  if (id.includes('kinitira')) return 'Κίνητρα Επαναπατρισμού';
+  if (id.includes('psifiakes')) return 'Ψηφιακές Υπηρεσίες';
+  if (id.includes('amka')) return 'ΑΜΚΑ & Ασφάλιση';
+  if (id.includes('syntaxi')) return 'Συντάξεις';
+  if (id.includes('agora-akinitou')) return 'Αγορά Ακινήτου';
+  if (id.includes('golden-visa')) return 'Golden Visa';
+  return 'Πληροφορίες';
+};
+---
+
+<Layout title="Guide for Greeks Abroad" description="Comprehensive guide for Greek expats and diaspora." lang="en">
+  <!-- Hero Section -->
+  <section class="relative bg-white overflow-hidden py-20 lg:py-32 border-b border-slate-200">
+    <div class="absolute inset-0 bg-[url('/grid-pattern.svg')] bg-center opacity-5"></div>
+    <div class="absolute top-0 right-0 -translate-y-12 translate-x-1/3 w-96 h-96 bg-primary-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/3 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+    
+    <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-primary-700 font-semibold text-sm mb-8 shadow-sm">
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary-500"></span>
+        </span>
+        Updated for 2026
+      </div>
+      
+      <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight leading-[1.1]">
+        Guide for <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-blue-400">Greeks Abroad</span>
+      </h1>
+      
+      <p class="text-xl md:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+        The most comprehensive information portal for expatriates, diaspora Greeks, and those planning to repatriate.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a href="#categories" class="bg-primary-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-primary-600/20 hover:bg-primary-700 hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto">
+          Explore the Guide
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Grid -->
+  <section id="categories" class="py-20 bg-slate-50 relative z-20">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Topics</h2>
+        <p class="text-slate-600 max-w-2xl mx-auto">Select the category you are interested in to see detailed information and instructions.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        {allArticles.map((article) => (
+          <CategoryCard 
+            title={article.data.title}
+            subtitle={getGreekSubtitle(article.id)}
+            description={article.data.description}
+            icon={getIconForCategory(article.data.category, article.id)}
+            href={`/en/${article.id.replace('.md', '')}`}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
