@@ -1,0 +1,147 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Επικοινωνία" description="Αξιόπιστη εκπροσώπηση και διαχείριση των φορολογικών σας υποχρεώσεων στην Ελλάδα." lang="el">
+  <div class="w-full">
+    <!-- Hero Section -->
+    <section class="relative bg-primary-600 py-24 overflow-hidden">
+      <div class="absolute inset-0 z-0 opacity-10">
+        <img class="w-full h-full object-cover" alt="Ακρόπολη" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_xV0bJnLk9tR4E2NroIQHiEnFuMFE5DRxcPmk7J1BGaDVxSrbKdn8yF7qqj1iewZNVFMRwSRw_qQuOzP3_vpFVqdawxn-kgCS3OjpLJYu9Rqc1kPuJhKE40QSqdMT1l9WgTFA0y-Ouyr2TvRPsvRaChiha5e3ycdpMeDdbSwNZwFpKzzhmFEaVPZPJ2gmrPunuzcLCh6PgsAJk-71aqogqexTF7eWk9AtVkByWIS5ZGKcH_v6X7jVV4FGORtmDeCRNjuMZbTJrsE"/>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Υπηρεσίες για Έλληνες Εξωτερικού</h1>
+        <p class="text-lg md:text-xl text-primary-100 max-w-3xl mx-auto">
+          Αξιόπιστη εκπροσώπηση και διαχείριση των φορολογικών σας υποχρεώσεων στην Ελλάδα, όπου κι αν βρίσκεστε.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="max-w-7xl mx-auto px-6 py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <!-- Left Column: Information -->
+        <div class="space-y-12">
+          <div class="space-y-6">
+            <div class="mb-6 flex items-center gap-3">
+              <img alt="Λογότυπο Usolutions" class="h-12 w-auto" src="https://usolutions.gr/logo.png"/>
+              <span class="text-2xl font-bold text-primary-700 tracking-tight">Usolutions Συμβουλευτική</span>
+            </div>
+            <h2 class="text-3xl font-bold text-primary-700">Η λύση για την περιουσία σας στην Ελλάδα</h2>
+            <p class="text-base text-slate-600 leading-relaxed">
+              Η πλοήγηση στο ελληνικό φορολογικό και νομικό τοπίο από μακριά μπορεί να είναι πολύπλοκη. Παρέχουμε εξειδικευμένη διαχείριση για φορολογικές δηλώσεις, εισοδήματα από ακίνητα, αποδοχές κληρονομιάς και μεταβιβάσεις περιουσίας.
+            </p>
+            <p class="text-sm font-medium text-slate-500 bg-slate-100 p-3 rounded-lg inline-block border border-slate-200">
+              ⚡ Αυτό το wiki υποστηρίζεται από την Usolutions Συμβουλευτική.
+            </p>
+          </div>
+
+          <div class="bg-primary-50 p-8 rounded-xl border border-primary-100">
+            <h3 class="text-xl font-semibold text-primary-700 mb-4 flex items-center gap-2">
+              <span class="material-symbols-outlined">public</span>
+              Χώρες που Εξυπηρετούμε
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {['Ισπανία', 'Ιταλία', 'Ηνωμένο Βασίλειο', 'Γερμανία', 'Αυστραλία', 'ΗΠΑ', 'Ελβετία', 'ΗΑΕ'].map((country) => (
+                <span class="px-4 py-2 bg-white rounded-full text-sm text-primary-700 border border-primary-200 font-semibold">{country}</span>
+              ))}
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold text-primary-700">Βασικές Υπηρεσίες</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">assignment_ind</span>
+                <div class="text-slate-700">Ορισμός φορολογικού εκπροσώπου</div>
+              </li>
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">request_quote</span>
+                <div class="text-slate-700">Φορολογικές δηλώσεις</div>
+              </li>
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">domain</span>
+                <div class="text-slate-700">Διαχείριση ακινήτων (ΕΝΦΙΑ, μισθωτήρια)</div>
+              </li>
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">history_edu</span>
+                <div class="text-slate-700">Κληρονομιές & μεταβιβάσεις ακινήτων</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-200">
+          <h3 class="text-3xl font-bold text-primary-700 mb-8">Επικοινωνήστε μαζί μας</h3>
+          <form class="space-y-6">
+            <div class="space-y-4">
+              <label class="block text-sm font-medium text-slate-700">Ενδιαφέρομαι για...</label>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Υποβολή φορολογικής δήλωσης</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Φορολογία εισοδήματος από ακίνητα</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Υποστήριξη σε κληρονομιές / μεταβιβάσεις</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Νομικές & φορολογικές ενημερώσεις</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="space-y-2">
+                <label class="text-sm font-medium text-slate-700">Ονοματεπώνυμο</label>
+                <input class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors" placeholder="Γιώργος Παπαδόπουλος" type="text"/>
+              </div>
+              <div class="space-y-2">
+                <label class="text-sm font-medium text-slate-700">Email</label>
+                <input class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors" placeholder="giorgos@example.com" type="email"/>
+              </div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-sm font-medium text-slate-700">Χώρα Διαμονής</label>
+              <select class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors text-slate-700">
+                <option>Επιλέξτε τη χώρα σας</option>
+                <option>Γερμανία</option>
+                <option>Ηνωμένο Βασίλειο</option>
+                <option>Ελβετία</option>
+                <option>Αυστραλία</option>
+                <option>ΗΠΑ</option>
+                <option>Ιταλία</option>
+                <option>Ισπανία</option>
+                <option>ΗΑΕ</option>
+                <option>Άλλο</option>
+              </select>
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-sm font-medium text-slate-700">Μήνυμα</label>
+              <textarea class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors" placeholder="Περιγράψτε το αίτημά σας..." rows="4"></textarea>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <input class="mt-1 w-4 h-4 text-primary-600 border-slate-300 rounded focus:ring-primary-600" id="privacy" type="checkbox"/>
+              <label class="text-xs text-slate-500 leading-relaxed" for="privacy">
+                Συμφωνώ με την <a href="/privacy-policy" class="text-primary-600 underline">πολιτική απορρήτου</a> και συναινώ στην επεξεργασία των προσωπικών μου δεδομένων για σκοπούς επικοινωνίας.
+              </label>
+            </div>
+
+            <button class="w-full py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-all active:scale-[0.98] shadow-md" type="button" onclick="alert('Η φόρμα υποβλήθηκε! Θα επικοινωνήσουμε σύντομα μαζί σας.')">
+              Αποστολή Μηνύματος
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

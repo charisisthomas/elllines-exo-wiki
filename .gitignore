@@ -22,3 +22,18 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+*.docx
+~$*.docx
+add_links.*
+get_screen*
+list_screens*
+list_all_screens*
+parse_*.cjs
+parse_tools.cjs
+mcp_tools.json
+stitch_*.json
+stitch_*.html
+raw_screen_out.txt
+screens_output.txt
+links_status.txt
+Wiki-2*

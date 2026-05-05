@@ -1,0 +1,147 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Contact Us" description="Reliable representation and management of your tax obligations in Greece." lang="en">
+  <div class="w-full">
+    <!-- Hero Section -->
+    <section class="relative bg-primary-600 py-24 overflow-hidden">
+      <div class="absolute inset-0 z-0 opacity-10">
+        <img class="w-full h-full object-cover" alt="Acropolis" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_xV0bJnLk9tR4E2NroIQHiEnFuMFE5DRxcPmk7J1BGaDVxSrbKdn8yF7qqj1iewZNVFMRwSRw_qQuOzP3_vpFVqdawxn-kgCS3OjpLJYu9Rqc1kPuJhKE40QSqdMT1l9WgTFA0y-Ouyr2TvRPsvRaChiha5e3ycdpMeDdbSwNZwFpKzzhmFEaVPZPJ2gmrPunuzcLCh6PgsAJk-71aqogqexTF7eWk9AtVkByWIS5ZGKcH_v6X7jVV4FGORtmDeCRNjuMZbTJrsE"/>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Services for Greeks Abroad</h1>
+        <p class="text-lg md:text-xl text-primary-100 max-w-3xl mx-auto">
+          Reliable representation and management of your tax obligations in Greece, wherever you are in the world.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="max-w-7xl mx-auto px-6 py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <!-- Left Column: Information -->
+        <div class="space-y-12">
+          <div class="space-y-6">
+            <div class="mb-6 flex items-center gap-3">
+              <img alt="Usolutions Logo" class="h-12 w-auto" src="https://usolutions.gr/logo.png"/>
+              <span class="text-2xl font-bold text-primary-700 tracking-tight">Usolutions Consulting</span>
+            </div>
+            <h2 class="text-3xl font-bold text-primary-700">The solution for your assets in Greece</h2>
+            <p class="text-base text-slate-600 leading-relaxed">
+              Navigating the Greek tax and legal landscape from afar can be complex. We provide expert management for tax returns, property income, settlement of assets, and complex inheritance matters.
+            </p>
+            <p class="text-sm font-medium text-slate-500 bg-slate-100 p-3 rounded-lg inline-block border border-slate-200">
+              ⚡ This wiki is powered by Usolutions Consulting.
+            </p>
+          </div>
+
+          <div class="bg-primary-50 p-8 rounded-xl border border-primary-100">
+            <h3 class="text-xl font-semibold text-primary-700 mb-4 flex items-center gap-2">
+              <span class="material-symbols-outlined">public</span>
+              Countries Served
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {['Spain', 'Italy', 'UK', 'Germany', 'Australia', 'USA', 'Switzerland', 'UAE'].map((country) => (
+                <span class="px-4 py-2 bg-white rounded-full text-sm text-primary-700 border border-primary-200 font-semibold">{country}</span>
+              ))}
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold text-primary-700">Core Services</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">assignment_ind</span>
+                <div class="text-slate-700">Appointment of tax representative</div>
+              </li>
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">request_quote</span>
+                <div class="text-slate-700">Tax returns</div>
+              </li>
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">domain</span>
+                <div class="text-slate-700">Property management (ENFIA, rental agreements)</div>
+              </li>
+              <li class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg transition-all hover:bg-slate-100 border border-slate-100">
+                <span class="material-symbols-outlined text-primary-500">history_edu</span>
+                <div class="text-slate-700">Inheritance & property transfers</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-200">
+          <h3 class="text-3xl font-bold text-primary-700 mb-8">Contact Us</h3>
+          <form class="space-y-6">
+            <div class="space-y-4">
+              <label class="block text-sm font-medium text-slate-700">I am interested in...</label>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Tax return submission</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Property income taxation</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Inheritance / transfers</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border border-slate-200 rounded-lg cursor-pointer hover:bg-slate-50 transition-colors">
+                  <input class="w-5 h-5 text-primary-600 border-slate-300 rounded focus:ring-primary-600" type="checkbox"/>
+                  <span class="text-sm text-slate-700">Legal & tax updates</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="space-y-2">
+                <label class="text-sm font-medium text-slate-700">Full Name</label>
+                <input class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors" placeholder="John Doe" type="text"/>
+              </div>
+              <div class="space-y-2">
+                <label class="text-sm font-medium text-slate-700">Email</label>
+                <input class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors" placeholder="john@example.com" type="email"/>
+              </div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-sm font-medium text-slate-700">Country of Residence</label>
+              <select class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors text-slate-700">
+                <option>Select your country</option>
+                <option>Germany</option>
+                <option>United Kingdom</option>
+                <option>Switzerland</option>
+                <option>Australia</option>
+                <option>USA</option>
+                <option>Italy</option>
+                <option>Spain</option>
+                <option>UAE</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-sm font-medium text-slate-700">Message</label>
+              <textarea class="w-full p-3 bg-white border border-slate-300 rounded-lg focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors" placeholder="Describe your inquiry..." rows="4"></textarea>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <input class="mt-1 w-4 h-4 text-primary-600 border-slate-300 rounded focus:ring-primary-600" id="privacy" type="checkbox"/>
+              <label class="text-xs text-slate-500 leading-relaxed" for="privacy">
+                I agree to the <a href="/en/privacy-policy" class="text-primary-600 underline">privacy policy</a> and consent to the processing of my personal data for communication purposes.
+              </label>
+            </div>
+
+            <button class="w-full py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-all active:scale-[0.98] shadow-md" type="button" onclick="alert('Form submitted! We will contact you shortly.')">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

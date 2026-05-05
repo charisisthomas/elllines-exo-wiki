@@ -1,61 +1,93 @@
 ---
-title: "Φορολογική Κατοικία & Φορολογικός Εκπρόσωπος (English)"
-description: "Guide and information for: Φορολογική Κατοικία & Φορολογικός Εκπρόσωπος."
-category: "Φορολογία"
+title: "Tax Residency & Tax Representative"
+description: "Guide and information for: Tax Residency & Tax Representative in Greece."
+category: "Taxation"
 lastUpdated: "2026-05-01"
 lang: "en"
 ---
 
-> 🇬🇧 **English translation coming soon.** View the Greek version for now.
+### What does "Foreign Tax Resident" mean?
 
-### Τι σημαίνει «φορολογικός κάτοικος εξωτερικού»;
+According to Article 4 of Law 4172/2013 (Income Tax Code), a tax resident of Greece is anyone who:
+- maintains their **permanent or main residence** or **habitual abode** in Greece, or
+- has the **center of their vital interests** (personal & economic ties) in Greece.
 
-Σύμφωνα με το άρθρο 4 του ν. 4172/2013 (ΚΦΕ), φορολογικός κάτοικος Ελλάδας είναι όποιος:
-- έχει στην Ελλάδα τη **μόνιμη ή κύρια κατοικία** ή τη **συνήθη διαμονή** του, ή
-- έχει το **κέντρο των ζωτικών του συμφερόντων** (προσωπικοί & οικονομικοί δεσμοί) στην Ελλάδα.
-
-> ⚠️ **Σημαντικό:** Η παραμονή 183+ ημερών στο εξωτερικό **δεν** αλλάζει αυτόματα τη φορολογική κατοικία. Απαιτείται ρητή διαδικασία μεταβολής.
+> ⚠️ **Important:** Residing abroad for 183+ days does **not** automatically change your tax residency. An explicit modification procedure is required.
 
 ---
 
-### Πώς μεταφέρω τη φορολογική μου κατοικία στο εξωτερικό;
+### How do I transfer my tax residency abroad?
 
-**Βήμα 1 — Αίτηση (εντός προθεσμίας)**  
-Η αίτηση υποβάλλεται **μέχρι τις 10 Μαρτίου** του επόμενου έτους από την αναχώρηση (π.χ. για αναχώρηση το 2025, αίτηση έως 10/3/2026). Αιτήσεις γίνονται δεκτές έως 31 Δεκεμβρίου του επόμενου έτους χωρίς κυρώσεις.
+**Step 1 — Application (within the deadline)**  
+The application must be submitted **by March 10th** of the year following your departure (e.g., if you depart in 2025, apply by 10/3/2026). Applications are accepted without penalties until December 31st of the following year.
 
-**Βήμα 2 — Δικαιολογητικά** (υποβολή έως 10 Σεπτεμβρίου του επόμενου έτους):
+**Step 2 — Supporting Documents** (submission by September 10th of the following year, while for special tax regimes 5A/5B in 2026 the deadline is [May 29th, 2026](https://www.taxheaven.gr/news/73482/shmantikes-forologikes-kai-loipes-ypoxrewseis-mhnos-maioy-2026)):
 
-| Έγγραφο | Σημειώσεις |
+| Document | Notes |
 |--------|-----------|
-| **Έντυπο Α110** | Αντικατέστησε το παλιό Μ0 (Α. 1158/2022) |
-| **Έντυπο Δ210** | Αντικατέστησε τα Μ1 & Μ7 (Α. 1158/2022) |
-| **Πιστοποιητικό Φορολογικής Κατοικίας** | Από τη φορολογική αρχή της χώρας διαμονής · Με Apostille + επίσημη μετάφραση |
-| **Αποδεικτικό διαμονής** | Μισθωτήριο, βεβαίωση Δημοτολογίου (π.χ. Meldebescheinigung Γερμανία), λογαριασμοί κοινής ωφέλειας στο όνομά σας |
-| **Δήλωση αποδοχής φορολογικού εκπροσώπου** (αν χρειαστεί) | Ή δήλωση αποδοχής κοινοποίησης πράξεων |
+| **Form A110** | Replaced the old M0 form (Dec. 1158/2022) |
+| **Form D210** | Replaced forms M1 & M7 (Dec. 1158/2022) |
+| **Tax Residency Certificate** | From the tax authority of your country of residence · With Apostille + official translation |
+| **Proof of residence** | Lease agreement, municipal registration certificate (e.g., Meldebescheinigung in Germany), utility bills in your name |
+| **Declaration of acceptance by a tax representative** (if required) | Or a declaration accepting service of process |
 
-> 💡 **Εναλλακτικά:** Αν υπάρχει ενεργή Σύμβαση Αποφυγής Διπλής Φορολογίας (ΣΑΔΦΕ), μπορεί να χρησιμοποιηθεί το ειδικό δίγλωσσο έντυπο της ΑΑΔΕ αντί του πιστοποιητικού φορολογικής κατοικίας.
+> 💡 **Alternatively:** If an active Double Taxation Avoidance Agreement (DTAA) exists, you may use the AADE's special bilingual form instead of a standard tax residency certificate.
 
-**Πού υποβάλλεται:**  
-Ηλεκτρονικά μέσω **myAADE.gov.gr → Αιτήματα** (λαμβάνετε αριθμό πρωτοκόλλου αμέσως) ή δια ζώσης στην αρμόδια ΔΟΥ.
+**Where to submit:**  
+Electronically via **myAADE.gov.gr → My Requests** (you will immediately receive a protocol number) or in person at the competent Tax Office (DOY).
 
-**Εγκρίνεται;**  
-Η Φορολογική Διοίκηση αποφαίνεται εντός **2 μηνών** από την υποβολή των δικαιολογητικών. Σε περίπτωση απόρριψης, προσβολή στο τριμελές Διοικητικό Πρωτοδικείο (ν. 4700/2020).
+**Will it be approved?**  
+The Tax Administration makes a decision within **2 months** from the submission of the documents. In case of rejection, an appeal can be filed at the three-member Administrative Court of First Instance (Law 4700/2020).
+
+---
+
+### Tax Representative
+
+**What is it:** A person residing in Greece who receives your tax correspondence.
+
+**Is it mandatory?** It is no longer strictly mandatory. Alternatively, you can sign a **Declaration of acceptance of service** to your declared contact details.
+
+**How to appoint:**
+- Electronically via **gov.gr** using **your own** (not a third party's) TAXISnet credentials → Solemn Declaration
+- With a notarial or consular power of attorney
+- Through a Citizens' Service Center (KEP) or a Consulate
+
+Required: **Written declaration of acceptance** by the representative themselves (with signature authentication).
+
+> ⚠️ The representative **must** be a tax resident of Greece.
 
 ---
 
-### Φορολογικός Εκπρόσωπος
+### List of Required Documents by Country (2026)
 
-**Τι είναι:** Πρόσωπο που διαμένει στην Ελλάδα και παραλαμβάνει τη φορολογική αλληλογραφία σας.
+To prove tax residency in Greece, AADE requires a combination of **official tax documents** and **proof of permanent establishment**.
 
-**Είναι υποχρεωτικός;** Όχι πια υποχρεωτικά. Εναλλακτικά, μπορείτε να υπογράψετε **Δήλωση αποδοχής κοινοποίησης** στα δεδηλωμένα στοιχεία επικοινωνίας σας.
+#### 1. Primary Document: The Tax Residence Certificate (TRC)
+For every country, the main document is the **Tax Residence Certificate**. Alternatively, you can use the DTAA Claim Form where the foreign authority fills out the "Certification by the Tax Authority" section.
 
-**Πώς ορίζεται:**
-- Ηλεκτρονικά μέσω **gov.gr** με **δικούς σας** (όχι τρίτου) κωδικούς TAXISnet → Υπεύθυνη Δήλωση
-- Με συμβολαιογραφικό ή προξενικό πληρεξούσιο
-- Μέσω ΚΕΠ ή Προξενείου
+| Country | Document Name | Issuing Authority | Specifics |
+|------|-------------------|--------------|----------------|
+| **Germany** | **Ansässigkeitsbescheinigung** | Local **Finanzamt** | Often requires the special bilingual DTAA form for Greece-Germany. |
+| **UK** | **Certificate of Residence** | **HMRC** | Requires [Hague Apostille](https://www.theapostillesgroup.uk/hmrc-confirmation-of-residence-apostille-information). |
+| **USA** | **IRS Form 6166** | **IRS** (via Form 8802) | Slow issuance (up to 45-60 days). Requires Apostille. |
+| **Australia** | **Certificate of Residency** | **ATO** (NAT 75441) | Issued for the current or past year. Requires Apostille. |
+| **Switzerland** | **Wohnsitzbestätigung** | **Cantonal Tax Office** | Varies by Canton. Often requires Cantonal legalization before Apostille. |
+| **UAE (Dubai)**| **Tax Residency Certificate** | **Federal Tax Authority** | Requires [movement report](https://www.tridenttrust.com/media/bbdjmnkn/tdub-trc-kf.pdf) (proof of 183 days of stay). |
+| **Spain** | **Certificado de residencia** | **Agencia Tributaria** | Available digitally using Cl@ve credentials. |
+| **Italy** | **Certificato di residenza** | **Agenzia delle Entrate**| Must be accompanied by **AIRE** registration. |
 
-Απαραίτητη: **Έγγραφη δήλωση αποδοχής** από τον ίδιο τον εκπρόσωπο (με βεβαίωση γνησίου υπογραφής).
+#### 2. Supplementary Documents (Proof of Establishment)
+In addition to the TRC, AADE requests documents proving that the "center of your vital interests" has indeed moved abroad.
+- **Germany & Switzerland:** Employment Contract (Arbeitsvertrag), Municipal Registration (Meldebescheinigung).
+- **UK:** Council Tax Bill, P60 or P45.
+- **USA & Australia:** Tax Return Transcript (Form 1040 for the US), Medicare/Social Security Records.
+- **UAE:** Ejari (Lease Agreement), Emirates ID & Residency Visa, Immigration Movement Report.
 
-> ⚠️ Ο εκπρόσωπος **πρέπει** να είναι φορολογικός κάτοικος Ελλάδας.
+#### 3. Checklist: Document Legalization & Translation
+1. **Hague Apostille:** All foreign public documents must bear the Apostille stamp (now including documents from the UAE).
+2. **Official Translation:** Translation must be done **after** the Apostille is affixed. Translations are accepted from lawyers, Ionian University graduates, or via the gov.gr portal.
+3. **Digital Submission:** Scan the original (with the Apostille) and the translation into a single, low-size PDF file and upload it to myAADE.
 
----
+> 💡 **Pro Tip:** If you use the AADE Bilingual DTAA Form (Greek-English) and get it stamped directly by the foreign tax authority (e.g., in Germany), **you avoid translation costs in Greece**!
+
+See detailed guidelines for countries of residence in the [Specialized Wiki by Country of Residence](/en/wiki/11-forologia-ana-xora).

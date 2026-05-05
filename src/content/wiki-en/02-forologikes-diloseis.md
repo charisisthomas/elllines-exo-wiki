@@ -1,43 +1,49 @@
 ---
-title: "Φορολογικές Δηλώσεις & Τεκμήρια (English)"
-description: "Guide and information for: Φορολογικές Δηλώσεις & Τεκμήρια."
-category: "Φορολογία"
+title: "Tax Returns & Wealth Criteria"
+description: "Guide and information for: Tax Returns & Wealth Criteria."
+category: "Taxation"
 lastUpdated: "2026-05-01"
 lang: "en"
 ---
 
-> 🇬🇧 **English translation coming soon.** View the Greek version for now.
+### When am I required to submit an E1 tax return?
 
-### Πότε υποχρεούμαι να υποβάλω δήλωση Ε1;
+Foreign tax residents **submit an E1 form only** if they earn **actual income in Greece**, such as:
+- Income from property rentals
+- Dividends or interest from Greek companies/banks
+- Income from business activity in Greece
+- Import of foreign exchange from abroad (under certain conditions)
 
-Οι φορολογικοί κάτοικοι εξωτερικού **υποβάλλουν Ε1 μόνο** αν αποκτούν **πραγματικό εισόδημα στην Ελλάδα**, όπως:
-- Εισοδήματα από ενοίκια ακινήτων
-- Μερίσματα ή τόκοι από ελληνικές εταιρείες/τράπεζες
-- Εισόδημα από επιχειρηματική δραστηριότητα στην Ελλάδα
-- Εισαγωγή συναλλάγματος από εξωτερικό (υπό προϋποθέσεις)
+**If you have no income in Greece:** You are not required to submit a zero-income tax return.
 
-**Αν δεν έχετε κανένα εισόδημα στην Ελλάδα:** Δεν υποχρεούστε σε μηδενική δήλωση.
-
-> 💡 Οι φορολογικοί κάτοικοι αλλοδαπής υποχρεούνται, εφόσον κληθούν, να προσκομίσουν **πιστοποιητικό φορολογικής κατοικίας** (tax residence certificate) — Α.1032/2025 Απόφαση Διοικητή ΑΑΔΕ.
+> 💡 Foreign tax residents are required, if requested, to provide a **[Tax Residence Certificate](/en/wiki/01-forologiki-katoikia)** — A.1032/2025 Decision of the Governor of AADE.
 
 ---
 
-### Τεκμήρια Διαβίωσης
+### Double Taxation Avoidance Agreements (DTAA)
 
-**Κανόνας:** Οι φορολογικοί κάτοικοι εξωτερικού **δεν υπόκεινται** κατά κανόνα σε εναλλακτική ελάχιστη φορολογία (τεκμήρια — π.χ. αυτοκίνητο, κατοικία), εφόσον προσκομίζουν Πιστοποιητικό Φορολογικής Κατοικίας.
+Residents abroad are taxed in Greece **only** on the income arising within its borders (e.g., rentals, dividends).
+Greece has concluded [Double Taxation Avoidance Agreements with 58 countries](https://www.e-forologia.gr/cms/viewContents.aspx?id=203684).
 
-**Εξαίρεση:** Υπόκεινται σε τεκμήρια αν παράλληλα αποκτούν **πραγματικό εισόδημα** στην Ελλάδα και έχουν **τεκμαρτό εισόδημα από αγορά περιουσιακών στοιχείων** (π.χ. αγορά ακινήτου).
+> ⚠️ **Attention:** The new DTAAs with France and the United Arab Emirates (effective from 08/09/2025) include new rules for pensions and dividends. The agreement with Sweden is no longer in force.
+
+---
+### Wealth/Living Criteria (Tekmiria)
+
+**Rule:** Foreign tax residents are generally **not subject** to alternative minimum taxation (living criteria — e.g., car, residence), provided they submit a Tax Residence Certificate.
+
+**Exception:** If you earn even €0.01 of actual income in Greece (e.g., rent), the living criteria are activated. However, they can be covered by [importing foreign exchange](https://www.taxheaven.gr/news/41082/katoikoi-exwterikoy-kai-omogeneis-oroi-kai-proypooeseis-gia-th-swsth-symplhrwsh-ths-dhlwshs) (proof of remittance).
 
 ---
 
-### Έντυπα & Διαδικασία
+### Forms & Procedure
 
-| Έντυπο | Χρήση |
+| Form | Usage |
 |--------|-------|
-| **Ε1** | Δήλωση φορολογίας εισοδήματος (ετήσια) |
-| **Ε2** | Δήλωση εισοδημάτων από ενοίκια (μισθώσεις) |
-| **Ε9** | Δήλωση ακίνητης περιουσίας (υποβάλλεται μόνο όταν υπάρχουν μεταβολές) |
+| **E1** | Income tax return (annual) |
+| **E2** | [Rental income return (leases)](/en/wiki/03-akinita-airbnb) |
+| **E9** | Real estate property declaration (submitted only when there are changes) |
 
-Όλες υποβάλλονται ηλεκτρονικά μέσω **myAADE.gov.gr**.
+All forms are submitted electronically via **myAADE.gov.gr**.
 
 ---

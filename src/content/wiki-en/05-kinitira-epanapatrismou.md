@@ -1,60 +1,60 @@
 ---
-title: "Κίνητρα Επαναπατρισμού (English)"
-description: "Guide and information for: Κίνητρα Επαναπατρισμού."
-category: "Επενδύσεις"
+title: "Repatriation Incentives"
+description: "Guide and information for: Repatriation Incentives."
+category: "Investments"
 lastUpdated: "2026-05-01"
 lang: "en"
 ---
 
-> 🇬🇧 **English translation coming soon.** View the Greek version for now.
+### Article 5A ITC — High Net Worth Individuals
 
-### Άρθρο 5Α ΚΦΕ — Άτομα Υψηλής Οικονομικής Επιφάνειας
+**Who it applies to:** Private investors who transfer their tax residency to Greece and invest at least **€500,000** in Greek businesses/real estate/financial products.
 
-**Ποιους αφορά:** Ιδιώτες επενδυτές που μεταφέρουν τη φορολογική τους κατοικία στην Ελλάδα και επενδύουν τουλάχιστον **€500.000** σε ελληνικές επιχειρήσεις/ακίνητα/χρηματοοικονομικά προϊόντα.
+**Tax advantage:** A flat tax payment of **€100,000/year** for income from abroad (regardless of the amount). The arrangement is valid for **15 years**.
 
-**Φορολογικό πλεονέκτημα:** Αυτοτελής καταβολή **€100.000/έτος** ως κατ' αποκοπή φόρος για εισοδήματα από αλλοδαπή (ανεξαρτήτως ύψους). Η ρύθμιση ισχύει για **15 χρόνια**.
+**Conditions:**
+- Not to have been a tax resident of Greece for **7 of the previous 8 years**
+- A minimum investment of €500,000 must be made
 
-**Προϋποθέσεις:**
-- Να μην ήταν φορολογικός κάτοικος Ελλάδας τα **7 από τα 8 προηγούμενα χρόνια**
-- Να πραγματοποιηθεί η κατ' ελάχιστον επένδυση €500.000
-
----
-
-### Άρθρο 5Β ΚΦΕ — Ομογενείς Συνταξιούχοι Εξωτερικού
-
-**Ποιους αφορά:** Φυσικά πρόσωπα που λαμβάνουν **σύνταξη από αλλοδαπό φορέα** και μεταφέρουν τη φορολογική τους κατοικία στην Ελλάδα.
-
-**Φορολογικό πλεονέκτημα:** Εναλλακτική φορολόγηση **7% επί του συνόλου των εισοδημάτων από αλλοδαπή** (αντί της κανονικής κλίμακας). Ισχύει **επ' αόριστον** για όσο διαρκεί το καθεστώς.
-
-**Προϋποθέσεις:**
-- Να μην ήταν φορολογικός κάτοικος Ελλάδας τα **5 από τα 6 τελευταία χρόνια** πριν τη μεταφορά
-- Να μεταφερθεί η φορολογική κατοικία από χώρα με **Σύμβαση Αποφυγής Διπλής Φορολογίας** με την Ελλάδα
+> 💡 See the [updated AADE guide (November 2025/2026)](https://www.aade.gr/sites/default/files/2025-11/forologika_kinitra.pdf) for tax incentives.
 
 ---
 
-### Άρθρο 5Γ ΚΦΕ — «Brain Regain» (Μισθωτοί & Ελεύθεροι Επαγγελματίες)
+### Article 5B ITC — Foreign Pensioners
 
-**Ποιους αφορά:** Φυσικά πρόσωπα που επαναπατρίζονται και αποκτούν εισόδημα από μισθωτή εργασία ή επιχειρηματική δραστηριότητα **στην Ελλάδα**.
+**Who it applies to:** Individuals who receive a **[pension from a foreign institution](/en/wiki/08-syntaxi)** and transfer their tax residency to Greece.
 
-**Φορολογικό πλεονέκτημα:** Απαλλαγή **50% επί του εισοδήματος** από μισθωτή εργασία ή επιχειρηματική δραστηριότητα στην Ελλάδα, για **7 φορολογικά έτη**.
+**Tax advantage:** Alternative taxation of **7% on total income from abroad** (instead of the regular tax scale). It is valid **indefinitely** for as long as the status lasts.
 
-**Προϋποθέσεις:**
-- Να μην ήταν φορολογικός κάτοικος Ελλάδας τα **5 από τα 6 τελευταία χρόνια**
-- Να μεταφερθεί η φορολογική κατοικία από χώρα ΕΕ/ΕΟΧ ή χώρα με ΣΑΔΦΕ με Ελλάδα
-- Να δεσμευτεί να παραμείνει φορολογικός κάτοικος Ελλάδας τουλάχιστον **2 χρόνια**
-
-**Υποβολή αίτησης:** Αποκλειστικά ηλεκτρονικά μέσω **myAADE.gov.gr**
+**Conditions:**
+- Not to have been a tax resident of Greece for **5 of the last 6 years** prior to the transfer
+- The tax residency must be transferred from a country with a **Double Taxation Avoidance Agreement** with Greece
 
 ---
 
-### Σύγκριση των τριών καθεστώτων
+### Article 5C ITC — "Brain Regain" (Employees & Freelancers)
 
-| | 5Α | 5Β | 5Γ |
+**Who it applies to:** Individuals who repatriate and earn income from salaried employment or business activity **in Greece**.
+
+**Tax advantage:** Exemption of **50% of the income** from salaried employment or business activity in Greece, for **7 tax years**.
+
+**Conditions:**
+- Not to have been a tax resident of Greece for **5 of the last 6 years**
+- Tax residency must be transferred from an EU/EEA country or a country with a DTAA with Greece
+- Must commit to remaining a tax resident of Greece for at least **2 years**
+
+**Application submission:** Exclusively online via **myAADE.gov.gr**
+
+---
+
+### Comparison of the three regimes
+
+| | 5A | 5B | 5C |
 |--|----|----|-----|
-| **Σε ποιον απευθύνεται** | Επενδυτές | Συνταξιούχοι | Μισθωτοί / Επαγγελματίες |
-| **Ελάχιστη απουσία** | 7/8 χρόνια | 5/6 χρόνια | 5/6 χρόνια |
-| **Όφελος** | €100K/έτος κατ' αποκοπή | 7% επί αλλοδαπών εισοδημάτων | 50% απαλλαγή |
-| **Διάρκεια** | 15 χρόνια | Αόριστη | 7 χρόνια |
-| **Ελάχιστη επένδυση** | €500.000 | Όχι | Όχι |
+| **Target audience** | Investors | Pensioners | Employees / Freelancers |
+| **Minimum absence** | 7/8 years | 5/6 years | 5/6 years |
+| **Benefit** | €100K/year flat tax | 7% on foreign income | 50% exemption |
+| **Duration** | 15 years | Indefinite | 7 years |
+| **Minimum investment** | €500,000 | No | No |
 
 ---

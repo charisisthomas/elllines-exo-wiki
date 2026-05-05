@@ -28,10 +28,11 @@ const { title, description = 'Οδηγός για Έλληνες Εξωτερι�
 		<meta property="og:type" content="website" />
 		<meta property="og:locale" content={lang === 'el' ? 'el_GR' : 'en_US'} />
 		
-		<!-- Google Fonts: Inter -->
+		<!-- Google Fonts: Inter & Material Symbols -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
 		
 		<title>{title} | Usolutions Wiki</title>
 	</head>
@@ -66,7 +67,17 @@ const { title, description = 'Οδηγός για Έλληνες Εξωτερι�
 		<footer class="bg-white border-t border-slate-200 mt-auto">
 			<div class="container mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
 				<p>&copy; {new Date().getFullYear()} Usolutions. {lang === 'el' ? 'Όλα τα δικαιώματα διατηρούνται.' : 'All rights reserved.'}</p>
-				<p>{lang === 'el' ? 'Οδηγός για Έλληνες της Διασποράς & Κατοίκους Εξωτερικού' : 'Guide for Greeks Abroad & Expats'}</p>
+				<div class="flex items-center gap-4">
+					<a href={lang === 'el' ? '/privacy-policy' : '/en/privacy-policy'} class="hover:text-primary-600 transition-colors">
+						{lang === 'el' ? 'Πολιτική Απορρήτου' : 'Privacy Policy'}
+					</a>
+					<a href={lang === 'el' ? '/terms-of-use' : '/en/terms-of-use'} class="hover:text-primary-600 transition-colors">
+						{lang === 'el' ? 'Όροι Χρήσης' : 'Terms of Use'}
+					</a>
+					<a href={lang === 'el' ? '/contact' : '/en/contact'} class="hover:text-primary-600 transition-colors">
+						{lang === 'el' ? 'Επικοινωνία' : 'Contact'}
+					</a>
+				</div>
 			</div>
 		</footer>
 	</body>

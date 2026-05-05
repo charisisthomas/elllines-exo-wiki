@@ -1,48 +1,54 @@
 ---
-title: "Κληρονομιές, Δωρεές & Μεταβιβάσεις (English)"
-description: "Guide and information for: Κληρονομιές, Δωρεές & Μεταβιβάσεις."
-category: "Φορολογία"
+title: "Inheritance, Gifts & Transfers"
+description: "Guide and information for: Inheritance, Gifts & Transfers."
+category: "Taxation"
 lastUpdated: "2026-05-01"
 lang: "en"
 ---
 
-> 🇬🇧 **English translation coming soon.** View the Greek version for now.
+### Inheritance Tax for Foreign Residents
 
-### Φόρος Κληρονομιάς για Κατοίκους Εξωτερικού
+Inheritance tax is imposed on **any property located in Greece**, regardless of whether the deceased or the heir resides abroad.
 
-Ο φόρος κληρονομιάς επιβάλλεται σε **κάθε περιουσία που βρίσκεται στην Ελλάδα**, ανεξάρτητα από το αν ο κληρονομούμενος ή ο κληρονόμος κατοικεί στο εξωτερικό.
+**Where to submit the declaration:**  
+From 2026 onwards, almost all declarations (with or without a contract) are submitted digitally via **myPROPERTY**. If the deceased was a resident abroad, the competent authority is now [KE.FO.K. Attica](https://www.aade.gr/sites/default/files/2026-02/odigos_klironomias_me%20symvolaio.pdf) (Capital Taxation Center).
 
-**Πού υποβάλλεται η δήλωση:**  
-Αν ο αποβιώσας κατοικούσε στο εξωτερικό → **ΔΟΥ Κατοίκων Εξωτερικού και Εναλλακτικής Φορολόγησης** (για θανάτους μετά την 1/1/2022 — ψηφιακά μέσω της εφαρμογής **myPROPERTY** στο myAADE).
+**Submission Deadlines:**
 
-**Προθεσμίες υποβολής:**
-
-| Περίπτωση | Προθεσμία |
+| Case | Deadline |
 |-----------|----------|
-| Θάνατος εντός Ελλάδας | 9 μήνες |
-| Θάνατος στο εξωτερικό ή κληρονόμοι στο εξωτερικό | **12 μήνες** |
+| Death within Greece | 9 months |
+| Death abroad or heirs living abroad | **12 months** |
 
 ---
 
-### Απαλλαγή «Πρώτης Κατοικίας» σε Κληρονομιές
+### "First Home" Exemption in Inheritances
 
-Χορηγείται σε:
-- Έλληνες πολίτες
-- Πολίτες κρατών-μελών ΕΕ και ΕΟΧ
+Granted to:
+- Greek citizens
+- Citizens of EU and EEA member states
 
-**Δεν απαιτείται** πλέον μόνιμη κατοικία στην Ελλάδα για να αξιώσετε την απαλλαγή.
+Permanent residence in Greece is **no longer required** to claim the exemption.
 
 ---
 
-### Κλίμακες Φόρου Κληρονομιάς (Κατηγορία Α — στενοί συγγενείς)
+### Inheritance Tax Brackets (Category A — close relatives)
 
-| Αξία Κληρονομιάς | Συντελεστής |
+| Inheritance Value | Rate |
 |-----------------|------------|
-| Έως €150.000 | 0% |
-| €150.001 – €300.000 | 1% |
-| €300.001 – €600.000 | 5% |
-| Άνω των €600.000 | 10% |
+| Up to €150,000 | 0% |
+| €150,001 – €300,000 | 1% |
+| €300,001 – €600,000 | 5% |
+| Over €600,000 | 10% |
 
-> Για σύζυγο/τέκνα ισχύει αφορολόγητο €150.000 ανά κληρονόμο.
+> For a spouse/children, there is a tax-free allowance of €150,000 per heir.
+
+---
+
+### Parental Gifts & Donations
+
+Parental gifts or donations to Category A relatives (spouses, children, grandchildren, parents) are **tax-free up to the amount of €800,000**.
+
+> ⚠️ **Attention:** For the tax exemption to apply to cash donations, the transfer must **mandatorily be made through the banking system**.
 
 ---
