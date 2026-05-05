@@ -37,3 +37,9 @@ raw_screen_out.txt
 screens_output.txt
 links_status.txt
 Wiki-2*
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
